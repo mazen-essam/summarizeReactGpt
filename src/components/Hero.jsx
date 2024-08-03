@@ -7,7 +7,9 @@ function Hero() {
         <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
         <button
           type="button"
-          onClick={() => window.open("https://github.com/Sumi-Dev/summarizeai")}
+          onClick={() =>
+            window.open("https://github.com/mazen-essam/summarizeReactGpt")
+          }
           className="black_btn"
         >
           Github
@@ -18,7 +20,8 @@ function Hero() {
         <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
-        Simplify your reading with SummarizeAI, an open-source article summarizer
+        Simplify your reading with SummarizeAI, an open-source article
+        summarizer
       </h2>
     </header>
   );
